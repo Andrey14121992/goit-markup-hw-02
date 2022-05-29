@@ -1,0 +1,351 @@
+
+
+
+body {
+    background-color: #FFFFFF;
+    color:#212121;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*----------Header-------*/
+
+.header-logo {
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.20;
+letter-spacing: 0.03em;
+color: #2196F3;
+text-decoration: none;
+
+}
+.header-logo-studio {
+    color: black;
+}
+
+.header-studio {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+    text-decoration: none;
+}
+
+.header-studio:active,
+.header-studio:hover,
+.header-studio:focus{
+    color:blue
+}
+
+
+
+.header-portfolio-contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+
+}
+
+.header-portfolio-contacts:hover,
+.header-portfolio-contacts:focus,
+.header-portfolio-contacts:active{
+    color:blue
+}
+
+.header-email {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #2196F3;
+text-decoration: none;
+
+}
+
+.header-email:hover, .header-email:focus,
+.header-phone:hover, .header-phone:focus {
+    color:blue;
+}
+
+.header-phone {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+}
+
+
+/*--------Main---------*/
+
+.main-section-service {
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background: #2F303A;
+}
+
+.main-title {
+    position: absolute;
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align:center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.main-button-service {
+cursor: pointer;
+position: absolute;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+    
+}
+
+.main-button-service:hover,
+.main-button-service:focus,
+.main-button-service:active{
+
+    color: grey;
+}
+
+.main-pretitle {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+
+.main-pretitle-description {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: #757575;
+}
+ 
+.about-us {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.out-team {
+background: #F5F4FA;
+}
+
+.photo-boxes{
+    width: 270px;
+    height: 368px;
+    left: 215px;
+    top: 1635px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+
+.names {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+color: #212121;
+}
+
+.profession {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+/*-------Footer------------*/
+
+.footer {
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2097px;
+background: #2F303A;
+}
+
+.footer-logo {
+    color: white;
+}
+
+.footer-adress {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+
+.footer-contacts {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+}
+
+.footer-contacts:hover,
+.footer-contacts:focus {
+    color:blue;
+}
+
+.dot{
+    list-style: none;
+}
+
+
+
+/*------------Portfolio--------*/
+
+.button-all {
+cursor: pointer;
+position: absolute;
+width: 73px;
+height: 38px;
+left: 495px;
+top: 174px;
+background: #2196F3;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+}
+
+.button-all:hover,
+.button-all:focus,
+.button-all:active{
+    color:grey;
+}
+
+.button-website{
+cursor: pointer;
+position: absolute;
+width: 128px;
+height: 38px;
+left: 576px;
+top: 174px;
+background: #F5F4FA;
+border-radius: 4px;
+}
+
+.button-website:hover,
+.button-website:focus,
+.button-website:active{
+    color:blue;
+}
+
+
+.button-applications {
+cursor: pointer;
+position: absolute;
+width: 145px;
+height: 38px;
+left: 712px;
+top: 174px;
+background: #F5F4FA;
+border-radius: 4px;
+}
+
+.button-applications:hover,
+.button-applications:focus,
+.button-applications:active{
+    color: blue;
+}
+
+
+.button-design{
+cursor: pointer;   
+position: absolute;
+width: 103px;
+height: 38px;
+left: 865px;
+top: 174px;
+background: #F5F4FA;
+border-radius: 4px;
+}
+
+.button-design:hover,
+.button-design:focus,
+.button-design:active{
+    color:blue;
+}
+
+
+.button-marketing {
+cursor: pointer;
+position: absolute;
+width: 130px;
+height: 38px;
+left: 976px;
+top: 174px;
+background: #F5F4FA;
+border-radius: 4px;
+}
+
+.button-marketing:hover,
+.button-marketing:focus,
+.button-marketing:active {
+    color: blue;
+}
+
+
+.boxes-of-examples {
+box-sizing: border-box;
+width: 370px;
+height: 404px;
+left: 215px;
+top: 262px;
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+}
+
+.title-service {
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+
+.title-applications {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.8;
+letter-spacing: 0.03em;
+color: #757575;
+}
