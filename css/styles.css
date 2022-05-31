@@ -61,7 +61,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: black;
+color:#757575;
 text-decoration: none;
 
 }
@@ -76,7 +76,7 @@ text-decoration: none;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: #757575;
     text-decoration: none;
 }
 
@@ -117,7 +117,7 @@ color: #FFFFFF;
 .main-button-service:focus,
 .main-button-service:active{
 
-    color: #188CE8;
+    background-color: #188CE8;
 }
 
 .main-pretitle {
@@ -236,7 +236,7 @@ color: #212121;
 .button-all:hover,
 .button-all:focus,
 .button-all:active{
- background-color:#2196F3;
+ color:#2196F3;
 }
 
 .button-website{
@@ -254,7 +254,7 @@ color: #212121;
 .button-website:hover,
 .button-website:focus,
 .button-website:active{
- background-color:#2196F3;
+ color:#2196F3;
 }
 
 
@@ -273,7 +273,7 @@ color: #212121;
 .button-applications:hover,
 .button-applications:focus,
 .button-applications:active{
- background-color:#2196F3;
+ color:#2196F3;
 }
 
 
@@ -292,7 +292,7 @@ color: #212121;
 .button-design:hover,
 .button-design:focus,
 .button-design:active{
- background-color:#2196F3;
+ color:#2196F3;
 }
 
 
@@ -311,7 +311,7 @@ color: #212121;
 .button-marketing:hover,
 .button-marketing:focus,
 .button-marketing:active {
- background-color:#2196F3;
+ color:#2196F3;
 }
 
 
